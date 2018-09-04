@@ -1,0 +1,26 @@
+package parcial_1_punto4;
+import java.util.Scanner;
+class punto4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		int salario;
+		//float prestamo;
+		float parte1;
+		
+		
+		System.out.println("ingrese su salario: ");
+		salario = sc.nextInt();
+		
+		//System.out.println("ingrese el valor del prestamo que desea solicitar: ");
+		//prestamo = sc.nextFloat();
+		
+		sc.close();
+		
+		parte1=((salario*100)/(30));
+		System.out.println("mire: "+ parte1);
+	}
+
+}

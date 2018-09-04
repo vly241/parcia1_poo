@@ -1,0 +1,34 @@
+package parcial_1_punto4;
+import java.util.Scanner;
+class punto4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		float salario;
+		float prestamo;
+		double parte1;
+		double parte2;
+		
+		System.out.println("ingrese su salario: ");
+		salario = sc.nextFloat();
+		
+		System.out.println("ingrese el valor del prestamo que desea solicitar: ");
+		prestamo = sc.nextFloat();
+		
+		sc.close();
+		
+		parte1 = salario*30/100.0;
+		
+		System.out.println("su capacidad de pago es de : "+ parte1);
+		
+		System.out.println("del 30% del salario de descontara un 2% en suguro de todo riesgo");
+		
+		parte2=parte1*2/100.0;
+		
+		
+		
+	}
+
+}
